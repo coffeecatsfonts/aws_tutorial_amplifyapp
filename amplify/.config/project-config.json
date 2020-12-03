@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "aws_tutorial_amplifyapp",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": ".",
+      "DistributionDir": "./build",
+      "BuildCommand": "build",
+      "StartCommand": "start"
+    }
+  }
+}
